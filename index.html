@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>RUPEE112 - Secure Loan Repayment</title>
+
+    <meta
+        name="description"
+        content="Secure UPI Payment Portal">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <a href="#" class="logo">
+
+                <img
+                    src="images/Paymentlogo.png"
+                    alt="Logo">
+
+            </a>
+
+            <a
+                href="#"
+                class="apply-btn">
+
+                Apply Now
+
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <div class="rbi-tag">
+
+                    <i class="fa-solid fa-building-columns"></i>
+
+                    RBI REGISTERED NBFC
+
+                </div>
+
+                <h1>
+
+                    AADHAR INDIA<br>
+                    FINVEST LIMITED
+
+                </h1>
+
+                <p>
+
+                    NBFC PARTNER OF RUPEE112
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PAYMENT CARD ================= -->
+
+    <section class="payment-section">
+
+        <div class="container">
+
+            <div class="payment-card">
+
+                <!-- Title -->
+
+                <div class="card-top">
+
+                    <h2>
+
+                        SCAN & PAY
+
+                    </h2>
+
+                    <p>
+
+                        Scan QR Code or Pay Using UPI
+
+                    </p>
+
+                </div>
+
+                <!-- QR -->
+
+                <div class="qr-wrapper">
+
+                    <img
+                        src="images/qr.png"
+                        alt="QR Code"
+                        class="qr-image">
+
+                </div>
+
+                <!-- UPI -->
+
+                <div class="upi-box">
+
+                    <input
+                        id="upiInput"
+                        type="text"
+                        value="rupee112refund@okicici"
+                        readonly>
+
+                    <button
+                        id="copyBtn"
+                        class="copy-btn">
+
+                        COPY
+
+                    </button>
+
+                </div>
+
+                <!-- Secure -->
+
+                <div class="secure-payment">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    <span>
+
+                        100% Secure UPI Payment
+
+                    </span>
+
+                </div>
+
+                <!-- Apps -->
+
+                <div class="payment-apps">
+
+                    <div class="payment-title">
+
+                        <h3>
+
+                            Choose Any UPI App
+
+                        </h3>
+
+                        <p>
+
+                            Google Pay • PhonePe • Paytm
+
+                        </p>
+
+                    </div>
+
+                    <div class="apps-grid">
+
+                        <div class="app-card">
+
+                            <img
+                                src="images/Paymentgpay.png"
+                                alt="Google Pay">
+
+                            <span>
+
+                                Google Pay
+
+                            </span>
+
+                        </div>
+
+                        <div class="app-card">
+
+                            <img
+                                src="images/Paymentphonepe.png"
+                                alt="PhonePe">
+
+                            <span>
+
+                                PhonePe
+
+                            </span>
+
+                        </div>
+
+                        <div class="app-card">
+
+                            <img
+                                src="images/Paymentpaytm.png"
+                                alt="Paytm">
+
+                            <span>
+
+                                Paytm
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- VERIFY -->
+
+                <div class="verify-box">
+
+                    <div class="verify-heading">
+
+                        <div class="line"></div>
+
+                        <h4>
+
+                            VERIFY UTR
+
+                        </h4>
+
+                        <div class="line"></div>
+
+                    </div>
+
+                    <label>
+
+                        Enter 12-Digit UTR Number
+
+                    </label>
+
+                    <input
+                        id="utr"
+                        maxlength="12"
+                        placeholder="Enter 12 Digit UTR Number"
+                        autocomplete="off">
+
+                    <small>
+
+                        Please enter the transaction reference number after successful payment.
+
+                    </small>
+
+                    <button
+                        id="confirmBtn"
+                        class="confirm-btn">
+
+                        CONFIRM REPAYMENT
+
+                    </button>
+
+                </div>
+
+                <!-- Security -->
+
+                <div class="security-grid">
+
+                    <div class="security-card">
+
+                        <i class="fa-solid fa-lock"></i>
+
+                        <h5>
+
+                            SSL Protected
+
+                        </h5>
+
+                        <p>
+
+                            256-Bit Encryption
+
+                        </p>
+
+                    </div>
+
+                    <div class="security-card">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <h5>
+
+                            Safe Payment
+
+                        </h5>
+
+                        <p>
+
+                            Verified UPI Gateway
+
+                        </p>
+
+                    </div>
+
+                    <div class="security-card">
+
+                        <i class="fa-solid fa-building-columns"></i>
+
+                        <h5>
+
+                            RBI Registered
+
+                        </h5>
+
+                        <p>
+
+                            Trusted NBFC Partner
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="company-info">
+
+                    <h3>
+
+                        AADHAR INDIA FINVEST LIMITED
+
+                    </h3>
+
+                    <p>
+
+                        Fast • Secure • Trusted Loan Repayment Service
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-item">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <span>
+
+                        256-Bit SSL Encrypted
+
+                    </span>
+
+                </div>
+
+                <div class="footer-item">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>
+
+                        100% Secure Payment
+
+                    </span>
+
+                </div>
+
+                <div class="footer-item">
+
+                    <i class="fa-solid fa-building-columns"></i>
+
+                    <span>
+
+                        RBI Registered NBFC
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>
+
+                    © 2026 All Rights Reserved.
+
+                </p>
+
+                <p>
+
+                    Powered By
+
+                    <strong>
+
+                        AADHAR INDIA FINVEST LIMITED
+
+                    </strong>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Notice -->
+
+    <div class="notice-bar">
+
+        <div class="notice-track">
+
+            <span>
+
+                ⚠️ Verify beneficiary before payment • Keep your UTR safe • Scan only the QR shown on this page • Never share OTP with anyone.
+
+            </span>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
